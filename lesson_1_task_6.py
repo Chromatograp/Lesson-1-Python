@@ -11,5 +11,4 @@ while first <= last:
     d += 1
     print(d, 'день - {:.2f}'.format(first))
     first = first + (first / grow)
-
 print('Вы достигнете желаемого результата', last, 'километров на', d + 1, 'день.')
