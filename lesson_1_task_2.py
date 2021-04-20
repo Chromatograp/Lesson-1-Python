@@ -1,5 +1,3 @@
-from pip._vendor.progress import counter
-from pipenv.vendor.orderedmultidict import f
 
 print("Задача 2.")
 time = int(input('Введите время в секундах: '))
@@ -12,4 +10,4 @@ else:
 s: int = time % 60
 i = time // 60
 h = i // 60
-print(f'Время в часах: {h}:{m}:{s}')
+print(f'Время в часах: {h:02d}:{m:02d}:{s:02d}')
