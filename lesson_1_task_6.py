@@ -1,5 +1,3 @@
-from pip._vendor.progress import counter
-from pipenv.vendor.orderedmultidict import f
 
 print("Задача 6.")
 print('Результативность бега.')
@@ -11,4 +9,5 @@ while first <= last:
     d += 1
     print(d, 'день - {:.2f}'.format(first))
     first = first + (first / grow)
+
 print('Вы достигнете желаемого результата', last, 'километров на', d + 1, 'день.')

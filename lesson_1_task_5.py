@@ -1,5 +1,3 @@
-from pip._vendor.progress import counter
-from pipenv.vendor.orderedmultidict import f
 
 print("Задача 5.")
 profit = int(input('Прибыль '))
