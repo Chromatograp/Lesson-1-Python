@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 from pip._vendor.progress import counter
 from pipenv.vendor.orderedmultidict import f
+=======
+>>>>>>> branch
 
 print("Задача 6.")
 print('Результативность бега.')
